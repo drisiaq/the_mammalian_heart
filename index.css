@@ -1,0 +1,26 @@
+body{
+    background-image: url('white.jpg');
+}
+li a.active {
+  background-color: black; 
+  color: white;
+}
+
+/* li a:hover:not(.active) {
+  color: white;
+  background-color: dimgrey;
+} */
+li a:link {
+    color: green;
+  }
+ /* li a:visited {
+    color: yellow;
+  } */
+li a:hover {
+    color: red;
+  }
+  
+  /* selected link */
+ /* li a:active {
+    color: yellow;
+  } */
